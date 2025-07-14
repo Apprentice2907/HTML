@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Indian Cuisine</title>
+</head>
+<body>
+    <header>
+        <h1>West Indian Delicacies</h1>
+        <nav>
+            <ul>
+                <li><a href="#street-food">Street Food</a></li>
+                <li><a href="#main-course">Main Course</a></li>
+                <li><a href="#sweets">Sweets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="street-food">
+            <h2>Famous Street Food</h2>
+            <hr>
+            <article>
+                <h3>Vada Pav</h3>
+                <figure>
+                    <img src="https://ministryofcurry.com/wp-content/uploads/2024/06/vada-pav-3.jpg" width="300">
+                    <figcaption>Mumbai's favorite street food</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 30 minutes</li>
+                        <li>Cooking Time: 20 minutes</li>
+                        <li>Spice Level: Medium to Hot</li>
+                    </ul>
+                </details>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Dabeli</h3>
+                <figure>
+                    <img src="https://cookingfromheart.com/wp-content/uploads/2017/06/Kutchi-Dabeli-8.jpg" alt="Kutchi Dabeli" width="300">
+                    <figcaption>Gujarati spicy potato sandwich</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 25 minutes</li>
+                        <li>Cooking Time: 15 minutes</li>
+                        <li>Served with: Special Dabeli masala and pomegranate</li>
+                    </ul>
+                </details>
+            </article>
+        </section>
+        <hr>
+
+        <section id="main-course">
+            <h2>Traditional Main Course</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Description</th>
+                        <th>Best Paired With</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dhokla</td>
+                        <td>Steamed fermented rice cake</td>
+                        <td>Green chutney, Chai</td>
+                    </tr>
+                    <tr>
+                        <td>Pav Bhaji</td>
+                        <td>Spiced vegetable mash</td>
+                        <td>Buttered pav, Onions</td>
+                    </tr>
+                    <tr>
+                        <td>Undhiyu</td>
+                        <td>Mixed vegetable curry</td>
+                        <td>Puris, Rice</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+
+        <section id="sweets">
+            <h2>Traditional Sweets</h2>
+            <hr>
+            <article>
+                <h3>Basundi</h3>
+                <figure>
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/8/AW/LA/EO/2565878/sitafal-basundi.jpg" alt="Creamy Basundi" width="300">
+                    <figcaption>Rich condensed milk dessert</figcaption>
+                </figure>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Shrikhand</h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3hpIydQ1bXcTNlbh0ao4n-ZhAdVaH-XJPg&s" width="300">
+                    <figcaption>Strained yogurt dessert</figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    
+                    <label for="dish">Select Dish:</label>
+                    <select id="dish" name="dish" required>
+                        <option value="">Choose a dish</option>
+                        <option value="vada-pav">Vada Pav</option>
+                        <option value="dabeli">Dabeli</option>
+                        <option value="dhokla">Dhokla</option>
+                        <option value="pav-bhaji">Pav Bhaji</option>
+                    </select>
+                    <br>
+
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                    <br>
+
+                    <label for="special-instructions">Special Instructions:</label>
+                    <textarea id="special-instructions" name="special-instructions" rows="3"></textarea>
+                    <br><br>
+
+                    <button type="submit">Place Order</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <small>&copy; 2024 West Indian Cuisine. All rights reserved.</small>
+    </footer>
+</body>
+</html>

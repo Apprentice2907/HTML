@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Cuisine</title>
+</head>
+<body>
+    <header>
+        <h1>South Indian Delicacies</h1>
+        <nav>
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#meals">Meals</a></li>
+                <li><a href="#snacks">Snacks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="breakfast">
+            <h2>Traditional Breakfast</h2>
+            <hr>
+            <article>
+                <h3>Masala Dosa</h3>
+                <figure>
+                    <img src="https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg" alt="Crispy Masala Dosa" width="300">
+                    <figcaption>Crispy rice crepe with potato filling</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 8 hours (fermentation)</li>
+                        <li>Cooking Time: 15 minutes</li>
+                        <li>Served with: Coconut chutney and sambar</li>
+                    </ul>
+                </details>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Idli Sambar</h3>
+                <figure>
+                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/idli-recipe-2.jpg" alt="Soft Idli with Sambar" width="300">
+                    <figcaption>Steamed rice cakes with lentil soup</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 12 hours (fermentation)</li>
+                        <li>Cooking Time: 20 minutes</li>
+                        <li>Spice Level: Medium</li>
+                    </ul>
+                </details>
+            </article>
+        </section>
+        <hr>
+
+        <section id="meals">
+            <h2>Main Course</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Description</th>
+                        <th>Accompaniments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hyderabadi Biryani</td>
+                        <td>Fragrant rice with spiced meat/vegetables</td>
+                        <td>Raita, Salan</td>
+                    </tr>
+                    <tr>
+                        <td>Kerala Fish Curry</td>
+                        <td>Spicy coconut-based fish curry</td>
+                        <td>Rice, Appam</td>
+                    </tr>
+                    <tr>
+                        <td>Chettinad Chicken</td>
+                        <td>Spicy curry with ground spices</td>
+                        <td>Parotta, Rice</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section id="snacks">
+            <h2>Evening Snacks</h2>
+            <hr>
+            <article>
+                <h3>Vada</h3>
+                <figure>
+                    <img src="https://www.sharmispassions.com/wp-content/uploads/2011/01/MeduVadai3.jpg" alt="Crispy Medu Vada" width="300">
+                    <figcaption>Crispy lentil doughnuts</figcaption>
+                </figure>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Mysore Pak</h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmcJdl5AxZGx2NzhcAmTHkoulgQSCJ48NGgg&s" width="300">
+                    <figcaption>Traditional ghee-based sweet</figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    <br>
+                    
+                    <label for="dish">Select Dish:</label>
+                    <select id="dish" name="dish" required>
+                        <option value="">Choose a dish</option>
+                        <option value="masala-dosa">Masala Dosa</option>
+                        <option value="idli">Idli Sambar</option>
+                        <option value="biryani">Hyderabadi Biryani</option>
+                        <option value="vada">Medu Vada</option>
+                    </select>
+                    <br>
+
+                    <label for="spice-level">Spice Level:</label>
+                    <input type="range" id="spice-level" name="spice-level" min="1" max="5">
+                    <br>
+
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" name="special-requests" rows="3"></textarea>
+                    <br><br>
+
+                    <button type="submit">Order Now</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <small>&copy; 2024 South Indian Cuisine. All rights reserved.</small>
+    </footer>
+</body>
+</html>

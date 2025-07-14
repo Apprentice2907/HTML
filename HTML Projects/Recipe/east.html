@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East Indian Cuisine</title>
+</head>
+<body>
+    <header>
+        <h1>East Indian Delicacies</h1>
+        <nav>
+            <ul>
+                <li><a href="#fish">Fish Dishes</a></li>
+                <li><a href="#rice">Rice Specialties</a></li>
+                <li><a href="#sweets">Bengali Sweets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="fish">
+            <h2>Fish Specialties</h2>
+            <hr>
+            <article>
+                <h3>Machher Jhol</h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_Cs_1xsi1wgUvHPQkZJIZgNfUO-55LFS-w&s" width="300">
+                    <figcaption>Traditional Bengali fish curry</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 30 minutes</li>
+                        <li>Cooking Time: 25 minutes</li>
+                        <li>Spice Level: Medium</li>
+                    </ul>
+                </details>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Ilish Bhapa</h3>
+                <figure>
+                    <img src="https://peekncooksa.blob.core.windows.net/index-recipe/doi_ilish2.jpg" width="300">
+                    <figcaption>Steamed Hilsa with mustard paste</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 20 minutes</li>
+                        <li>Cooking Time: 15 minutes</li>
+                        <li>Best Season: Monsoon</li>
+                    </ul>
+                </details>
+            </article>
+        </section>
+        <hr>
+
+        <section id="rice">
+            <h2>Rice Specialties</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Description</th>
+                        <th>Accompaniments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ghee Bhaat</td>
+                        <td>Aromatic rice with clarified butter</td>
+                        <td>Dal, Aloo Bhaja</td>
+                    </tr>
+                    <tr>
+                        <td>Khichuri</td>
+                        <td>Rice and lentil porridge</td>
+                        <td>Begun Bhaja, Papad</td>
+                    </tr>
+                    <tr>
+                        <td>Pulao</td>
+                        <td>Spiced rice with vegetables</td>
+                        <td>Chutney, Raita</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section id="sweets">
+            <h2>Bengali Sweets</h2>
+            <hr>
+            <article>
+                <h3>Rasgulla</h3>
+                <figure>
+                    <img src="https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/rasgulla.png" width="300">
+                    <figcaption>Soft and spongy cottage cheese balls in sugar syrup</figcaption>
+                </figure>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Sandesh</h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymQ9WaA89aillazdmQQzAdMRPQr5ykHHc8A&s" width="300">
+                    <figcaption>Traditional Bengali sweet made from cottage cheese</figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    
+                    <label for="dish">Select Dish:</label>
+                    <select id="dish" name="dish" required>
+                        <option value="">Choose a dish</option>
+                        <option value="machher-jhol">Machher Jhol</option>
+                        <option value="ilish-bhapa">Ilish Bhapa</option>
+                        <option value="khichuri">Khichuri</option>
+                        <option value="rasgulla">Rasgulla</option>
+                    </select>
+                    <br>
+
+                    <label for="spice-preference">Spice Preference:</label>
+                    <input type="range" id="spice-preference" name="spice-preference" min="1" max="5">
+                    <br>
+
+                    <label for="special-notes">Special Notes:</label>
+                    <textarea id="special-notes" name="special-notes" rows="3"></textarea>
+                    <br><br>
+
+                    <button type="submit">Order Now</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <small>&copy; 2024 East Indian Cuisine. All rights reserved.</small>
+    </footer>
+</body>
+</html>

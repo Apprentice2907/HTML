@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Indian Cuisine</title>
+</head>
+<body>
+    <header>
+        <h1>North Indian Delicacies</h1>
+        <nav>
+            <ul>
+                <li><a href="#curries">Curries</a></li>
+                <li><a href="#breads">Breads</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="curries">
+            <h2>Popular Curries</h2>
+            <hr>
+            <article>
+                <h3>Butter Chicken</h3>
+                <figure>
+                    <img src="https://new.milk.org/wp-content/uploads/2024/05/DFO-Creamy-Butter-Chicken-web.jpg" alt="Creamy Butter Chicken" width="300">
+                    <figcaption>Rich and creamy butter chicken</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 45 minutes</li>
+                        <li>Cooking Time: 30 minutes</li>
+                        <li>Spice Level: Medium</li>
+                    </ul>
+                </details>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Dal Makhani</h3>
+                <figure>
+                    <img src="https://www.cookwithmanali.com/wp-content/uploads/2019/04/Restaurant-Style-Dal-Makhani-500x375.jpg" alt="Creamy Dal Makhani" width="300">
+                    <figcaption>Slow-cooked black lentils</figcaption>
+                </figure>
+                <details>
+                    <summary>Recipe Details</summary>
+                    <ul>
+                        <li>Preparation Time: 8 hours soaking</li>
+                        <li>Cooking Time: 6 hours</li>
+                        <li>Spice Level: Mild</li>
+                    </ul>
+                </details>
+            </article>
+        </section>
+        <hr>
+
+        <section id="breads">
+            <h2>Traditional Breads</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bread Type</th>
+                        <th>Description</th>
+                        <th>Best Paired With</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Naan</td>
+                        <td>Tandoor-baked flatbread</td>
+                        <td>Butter Chicken, Korma</td>
+                    </tr>
+                    <tr>
+                        <td>Roti</td>
+                        <td>Whole wheat flatbread</td>
+                        <td>Dal, Vegetable Curries</td>
+                    </tr>
+                    <tr>
+                        <td>Paratha</td>
+                        <td>Layered flatbread</td>
+                        <td>Curd, Pickle</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
+        <hr>
+
+        <section id="desserts">
+            <h2>Sweet Delights</h2>
+            <hr>
+            <article>
+                <h3>Gulab Jamun</h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3aJrkMZfZWaRkqQu36Y9TBzYlCrkKHvy7mw&s" alt="Sweet Gulab Jamun" width="300">
+                    <figcaption>Milk-solid based sweet dumplings</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Gajar Ka Halwa</h3>
+                <figure>
+                    <img src="https://www.vidhyashomecooking.com/wp-content/uploads/2023/01/CarrotHalwaRecipe.jpg" alt="Carrot Halwa" width="300">
+                    <figcaption>Traditional carrot pudding</figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    
+                    <label for="dish">Select Dish:</label>
+                    <select id="dish" name="dish" required>
+                        <option value="">Choose a dish</option>
+                        <option value="butter-chicken">Butter Chicken</option>
+                        <option value="dal-makhani">Dal Makhani</option>
+                        <option value="naan">Naan</option>
+                        <option value="gulab-jamun">Gulab Jamun</option>
+                    </select>
+
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                    <br>
+
+                    <label for="special-instructions">Special Instructions:</label>
+                    <textarea id="special-instructions" name="special-instructions" rows="3"></textarea>
+                    <br><br>
+
+                    <button type="submit">Place Order</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <small>&copy; 2024 North Indian Cuisine. All rights reserved.</small>
+    </footer>
+</body>
+</html>

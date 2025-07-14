@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cuisine Recipe Collection</title>
+</head>
+<body>
+    <header>
+        <h1>Traditional Indian Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#featured">Featured Dishes</a></li>
+                <li><a href="#categories">Regional Cuisines</a></li>
+                <li><a href="#submit">Share Your Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="featured">
+            <h2>Featured Recipe: Butter Chicken (Murgh Makhani)</h2>
+            <article>
+                <figure>
+                    <img src="https://feelgoodfoodie.net/wp-content/uploads/2024/02/Easy-Butter-Chicken-TIMG.jpg" alt="Creamy Butter Chicken" width="400" height="300">
+                    <figcaption><b>Authentic Punjabi Butter Chicken with Naan</b></figcaption>
+                </figure>
+
+                <section class="recipe-details">
+                    <h3>Recipe Information</h3>
+                    <dl>
+                        <dt>Preparation Time:</dt>
+                        <dd>Marination: 4-6 hours</dd>
+                        <dt>Cooking Time:</dt>
+                        <dd>45 minutes</dd>
+                        <dt>Servings:</dt>
+                        <dd>6 portions</dd>
+                        <dt>Spice Level:</dt>
+                        <dd>
+                            <meter value="0.6" min="0" max="1">Medium Spicy</meter>
+                        </dd>
+                    </dl>
+                </section>
+
+                <section class="ingredients">
+                    <h3>Ingredients</h3>
+                    <details>
+                        <summary>For Marination</summary>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Chicken
+                                    <small>(1kg, bone-in)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Yogurt
+                                    <small>(1 cup)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Ginger-Garlic Paste
+                                    <small>(2 tbsp)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Garam Masala
+                                    <small>(2 tsp)</small>
+                                </label>
+                            </li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>For Gravy</summary>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Tomatoes
+                                    <small>(8-10 medium, pureed)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Butter
+                                    <small>(200g)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Fresh Cream
+                                    <small>(1 cup)</small>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Kasuri Methi
+                                    <small>(2 tbsp)</small>
+                                </label>
+                            </li>
+                        </ul>
+                    </details>
+                </section>
+
+                <section class="instructions">
+                    <h3>Preparation Steps</h3>
+                    <ol>
+                        <li>Marinate chicken
+                            <aside>
+                                <details>
+                                    <summary>Chef's Tip</summary>
+                                    <p>For best results, marinate overnight in refrigerator</p>
+                                </details>
+                            </aside>
+                        </li>
+                        <li>Cook marinated chicken in tandoor or oven</li>
+                        <li>Prepare makhani gravy</li>
+                        <li>Combine chicken with gravy</li>
+                        <li>Finish with cream and butter</li>
+                    </ol>
+                </section>
+
+                <section class="variations">
+                    <h3>Regional Variations</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Region</th>
+                                <th>Special Ingredients</th>
+                                <th>Unique Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Delhi Style</td>
+                                <td>More Cream</td>
+                                <td>Extra Rich</td>
+                            </tr>
+                            <tr>
+                                <td>Punjab Style</td>
+                                <td>Smoked</td>
+                                <td>Charcoal Flavor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+        </section>
+        <hr>
+
+        <section id="categories">
+            <h2>Regional Indian Cuisines</h2>
+            <ul>
+                <li><a href="north.html">North Indian</a></li>
+                <li><a href="south.html">South Indian</a></li>
+                <li><a href="east.html">East Indian</a></li>
+                <li><a href="west.html">West Indian</a></li>
+            </ul>
+        </section>
+        <hr>
+
+        <section id="submit">
+            <h2>Share Your Family Recipe</h2>
+            <form>
+                <fieldset>
+                    <legend>Recipe Details</legend>
+                    
+                    <label for="dish-name">Dish Name:</label>
+                    <input type="text" id="dish-name" name="dish-name" required>
+                    
+                    <label for="region">Region of Origin:</label>
+                    <select id="region" name="region" required>
+                        <option value="">Select Region</option>
+                        <option value="north">North Indian</option>
+                        <option value="south">South Indian</option>
+                        <option value="east">East Indian</option>
+                        <option value="west">West Indian</option>
+                    </select>
+                    <br>
+                    <label for="spice-level">Spice Level:</label>
+                    <input type="range" id="spice-level" name="spice-level" min="1" max="5">
+                    
+                    <label for="recipe-story">Family Recipe Story:</label>
+                    <textarea id="recipe-story" name="recipe-story" rows="4"></textarea>
+                    <br><br>
+                    <button type="submit">Share Recipe</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <address>
+            Contact our Master Chef: <a href="masterchef@india.com">masterchef@india.com</a>
+        </address>
+        <small>&copy; 2024 Indian Cuisine Recipe Collection. All rights reserved.</small>
+    </footer>
+</body>
+</html>
